@@ -1,0 +1,30 @@
+body{
+	background-image:url("../imagenes/img5.jpg");
+	background-size:cover;
+	background-fixed:attachment;
+}
+
+form{
+	background:rgba(0,0,0,0.4);
+	padding:30px;
+	margin-top:30px;
+	color:white;
+}
+
+footer .col-xs-6 ul li a{
+	color:white;
+}
+
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}

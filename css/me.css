@@ -1,0 +1,30 @@
+body{
+	background:white;
+	}
+
+.container table{
+
+	margin:auto;
+}
+
+.container table tr img{
+	width:200px;
+	margin-left:200px;
+	border-radius:20px;
+	height:200px;
+}
+.me {
+	margin-top:30px;
+}
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}

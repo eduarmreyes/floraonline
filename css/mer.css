@@ -1,0 +1,34 @@
+body{
+	background:white;
+	}
+
+.container table{
+
+	margin:auto;
+}
+
+.container table tr img{
+	width:px;
+	margin-left:300px;
+	border-radius:20px;
+	height:px;
+}
+
+table tr input{
+	width:300px;
+}
+.me {
+	margin-top:30px;
+}
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}

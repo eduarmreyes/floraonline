@@ -1,0 +1,25 @@
+body{
+background-image:url("../imagenes/img22.jpg");
+background-size:cover;
+}
+
+.numero{
+	width:75px;
+	height:75px;
+}
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}
+.table{
+background-color:white;
+}

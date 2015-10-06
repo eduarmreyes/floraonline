@@ -1,0 +1,16 @@
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}
+form{
+	width:600px;
+}

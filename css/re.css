@@ -1,0 +1,52 @@
+body{
+	background:url("../imagenes/img5.jpg");
+	background-size:cover;
+	background-fixed:attachment;
+}
+
+form{
+	background:rgba(0,0,0,0.4);
+	border-radius:20px;
+	padding:30px;
+	margin-top:30px;
+	color:white;
+}
+form{
+	width:50%;
+	margin:auto;
+}
+
+form div .btn btn-primary{
+	width:50%;
+}
+
+form .uno{
+	float:right;
+	margin-left:20px;
+	margin-top:8px;
+	color:white;
+	
+}
+
+form .uno a{
+	color:white;
+	
+	text-decoration:none;
+}
+
+footer{
+	margin-top:250px;
+
+}
+
+footer div ul li a{
+	color:white;
+
+}
+
+
+footer div ul li a:hover{
+	color:white;
+	text-decoration:none;
+
+}
