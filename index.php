@@ -1,25 +1,9 @@
 <?php
 include_once "include/Carrito.class.php";
-$oCarrito = new Carrito();
-//array que crea un producto
-$aArregloFloral = array(
-		"id"			=>		14,
-		"cantidad"		=>		3,
-		"precio"		=>		50,
-		"nombre"		=>		"Arreglo 1"
-	);
-
-$aArregloFloral2 = array(
-		"id"			=>		15,
-		"cantidad"		=>		3,
-		"precio"		=>		50,
-		"nombre"		=>		"Arreglo 2"
-	);
-
-//añadir el producto
-$oCarrito->add($aArregloFloral);
-$oCarrito->add($aArregloFloral2);
-var_dump($oCarrito->get_content());
+$_SESSION["oCarrito"] = new Carrito();
+if (isset($_GET["reset"])) {
+	$_SESSION["oCarrito"]->destroy();
+}
 ?>
 <!DOCTYPE>
 <html lang="es">

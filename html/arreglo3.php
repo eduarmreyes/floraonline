@@ -5,10 +5,10 @@ if (isset($_GET["addme"])) {
 		$_SESSION["oCarrito"] = new Carrito();
 	}
 	$aArregloFloral = array(
-			"id"				=>		1,
+			"id"				=>		3,
 			"cantidad"	=>		1,
-			"precio"		=>		35,
-			"nombre"		=>		"Arreglo de Rosas"
+			"precio"		=>		25,
+			"nombre"		=>		"Arreglo de Rosas Varias"
 		);
 
 	//añadir el producto
@@ -71,14 +71,15 @@ if (isset($_GET["addme"])) {
 				<article>
 					<div class="container">
 						<?php if (isset($_GET["addme"])) { ?>
-							<div class="alert alert-success" role="alert"><strong>Arreglo de Rosas</strong> agregado correctamente al carrito de compras. Total a Pagar: <?php echo $_SESSION["oCarrito"]->precio_total(); ?> <a href="cancelar.php">Proceder a pagar</a></div>
+							<div class="alert alert-success" role="alert"><strong>Arreglo de Rosas Varias</strong> agregado correctamente al carrito de compras. Total a Pagar: <?php echo $_SESSION["oCarrito"]->precio_total(); ?> <a href="cancelar.php">Proceder a pagar</a></div>
 						<?php } ?>
+
 						<table class="table table-bordered">
 							<tr class="active">
-								<th><h1>Arreglo de Rosas </h1> $35.00</th>
+							<th><h1>Arreglo de Rosas Varias</h1> $25.00</th>
 							</tr>
 							<tr>
-								<td><img src="../imagenes/img16.jpg"></td>
+								<td><img width="250" height="250" src="../imagenes/img14.jpg"></td>
 
 							</tr>
 

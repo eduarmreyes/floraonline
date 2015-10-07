@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 class Carrito
 {
@@ -10,6 +9,7 @@ class Carrito
 	//seteamos el carrito exista o no exista en el constructor
 	public function __construct()
 	{
+		if ( !session_id()) session_start();
 		
 		if(!isset($_SESSION["carrito"]))
 		{
